@@ -1,0 +1,27 @@
+.proposition-card {
+    cursor: pointer;
+    margin: 10px !important;
+    width: 20% !important;
+    @media screen and (max-width: 1170px) {
+        width: 30% !important;
+    }
+    @media screen and (max-width: 768px) {
+        width: 100% !important;
+    }
+}
+
+.proposition-photo {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.extra-content-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposition-prise {
+    margin-top: 5px !important;
+    min-height: 20px;
+}

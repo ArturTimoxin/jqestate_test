@@ -1,0 +1,10 @@
+.loading-card-placeholder {
+    margin: 30px 10px 10px 10px;
+    width: 20%;
+    @media screen and (max-width: 1170px) {
+        width: 30%;
+    }
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}

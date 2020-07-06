@@ -1,0 +1,16 @@
+// COMPONENTS STYLE INPORT
+@import './components/Layout/index.scss';
+@import './components/LoadingCardPlaceholder/index.scss';
+@import './components/PropositionCard/index.scss';
+
+// PAGES STYLE IMPORT
+@import './pages/home/index.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
