@@ -40,10 +40,10 @@ const Propositions = ({ isLoading, propositions }) => {
                     areaAmount={proposition.specification.area}
                 />
             ))}
+            {/* <div className='empty-proposition-block' />
             <div className='empty-proposition-block' />
             <div className='empty-proposition-block' />
-            <div className='empty-proposition-block' />
-            <div className='empty-proposition-block' />
+            <div className='empty-proposition-block' /> */}
         </div>
     )
 }
